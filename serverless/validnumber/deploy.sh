@@ -1,0 +1,1 @@
+gcloud beta functions deploy isNumberValid --trigger-http --runtime go111 --entry-point IsNumberValid --env-vars-file .env.yaml
